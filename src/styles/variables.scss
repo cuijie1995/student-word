@@ -1,0 +1,25 @@
+// sidebar
+$menuText:#9fa0a2;//字体颜色
+$menuActiveText:#03a9f5;//选中时的字体颜色
+$subMenuActiveText:#f4f4f5; //https://github.com/ElemeFE/element/issues/12951
+
+$menuBg:#f8f9fb;//导航背景色
+$menuHover:#fff;//划过时的总导航背景色
+
+$subMenuBg:#fff;//选中时的背景
+$subMenuHover:#fff;//划过时的子导航背景色
+
+$sideBarWidth: 210px;
+
+// the :export directive is the magic sauce for webpack
+// https://www.bluematador.com/blog/how-to-share-variables-between-js-and-sass
+:export {
+  menuText: $menuText;
+  menuActiveText: $menuActiveText;
+  subMenuActiveText: $subMenuActiveText;
+  menuBg: $menuBg;
+  menuHover: $menuHover;
+  subMenuBg: $subMenuBg;
+  subMenuHover: $subMenuHover;
+  sideBarWidth: $sideBarWidth;
+}
